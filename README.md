@@ -32,18 +32,21 @@ QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Apli
 ## 📦 Instalasi dan Setup
 
 ### Prasyarat
+
 - Node.js (versi 14 atau lebih baru)
 - npm atau yarn package manager
 
 ### Langkah Instalasi
 
 1. **Clone Repository**
+
    ```bash
    git clone <repository-url>
    cd quiz-app
    ```
 
 2. **Install Dependencies**
+
    ```bash
    npm install
    # atau
@@ -51,6 +54,7 @@ QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Apli
    ```
 
 3. **Jalankan Aplikasi**
+
    ```bash
    npm start
    # atau
@@ -63,26 +67,31 @@ QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Apli
 ## 🎮 Cara Penggunaan
 
 ### 1. Login
+
 - Masukkan username dan password (dapat berupa teks apa saja)
 - Klik tombol "Login" untuk masuk ke aplikasi
 
 ### 2. Memulai Kuis
+
 - Di halaman beranda, klik "Mulai Kuis Baru"
 - Aplikasi akan mengambil 10 soal multiple choice dari API
 - Timer akan mulai berjalan otomatis
 
 ### 3. Menjawab Soal
+
 - Baca pertanyaan dan pilihan jawaban yang tersedia
 - Klik salah satu pilihan jawaban
 - Aplikasi akan otomatis pindah ke soal berikutnya
 
 ### 4. Menyelesaikan Kuis
+
 - Kuis akan berakhir ketika:
   - Semua soal telah dijawab, atau
   - Timer habis (5 menit)
 - Hasil kuis akan ditampilkan secara otomatis
 
 ### 5. Fitur Resume
+
 - Jika browser ditutup saat kuis berlangsung
 - Login kembali untuk melanjutkan kuis dari posisi terakhir
 - Data yang tersimpan: progress soal, skor, dan sisa waktu
@@ -90,6 +99,7 @@ QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Apli
 ## 📊 Informasi Kuis
 
 ### Data yang Ditampilkan
+
 - **Progress**: Soal ke-X dari total Y soal
 - **Timer**: Countdown dalam format MM:SS
 - **Kategori**: Kategori soal (Science, History, dll.)
@@ -97,6 +107,7 @@ QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Apli
 - **Statistik**: Jumlah benar, salah, dan total dijawab
 
 ### Hasil Kuis
+
 - Jumlah jawaban benar (warna hijau)
 - Jumlah jawaban salah (warna merah)
 - Total soal yang dijawab (warna biru)
@@ -113,18 +124,20 @@ Anda dapat mengubah pengaturan berikut di dalam kode:
 const [timer, setTimer] = useState(300); // 5 menit
 
 // URL API untuk mengambil soal
-const apiUrl = 'https://opentdb.com/api.php?amount=10&type=multiple';
+const apiUrl = "https://opentdb.com/api.php?amount=10&type=multiple";
 ```
 
 ### Opsi API OpenTDB
 
 API mendukung berbagai parameter:
+
 - `amount`: Jumlah soal (1-50)
 - `category`: ID kategori soal
 - `difficulty`: easy, medium, hard
 - `type`: multiple, boolean
 
 Contoh URL dengan parameter:
+
 ```
 https://opentdb.com/api.php?amount=15&category=9&difficulty=medium&type=multiple
 ```
@@ -160,6 +173,7 @@ Aplikasi menggunakan React Hooks untuk mengelola state:
 ## 💾 Local Storage
 
 Data yang disimpan di localStorage:
+
 - `user`: Informasi pengguna yang login
 - `quizState`: State kuis untuk fitur resume
 
@@ -189,10 +203,12 @@ Data yang disimpan di localStorage:
 ### Masalah Umum
 
 1. **API Tidak Dapat Diakses**
+
    - Periksa koneksi internet
    - Coba refresh halaman
 
 2. **Kuis Tidak Dapat Diresume**
+
    - Pastikan localStorage tidak diblokir browser
    - Clear cache dan coba lagi
 
@@ -207,6 +223,7 @@ Aplikasi ini dibuat untuk keperluan pembelajaran dan dapat digunakan secara beba
 ## 👥 Kontribusi
 
 Kontribusi sangat diterima! Silakan:
+
 1. Fork repository ini
 2. Buat branch fitur baru
 3. Commit perubahan Anda
@@ -216,8 +233,9 @@ Kontribusi sangat diterima! Silakan:
 ## 📞 Kontak
 
 Jika ada pertanyaan atau saran, silakan hubungi developer melalui:
-- Email: [your-email@example.com]
-- GitHub: [your-github-username]
+
+- Email: [muhammadimam.dev@gmail.com]
+- GitHub: [imammeze]
 
 ---
 
