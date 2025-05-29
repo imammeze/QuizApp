@@ -185,7 +185,7 @@ export default function QuizApp() {
     <div className="flex flex-col min-h-screen bg-gray-100">
       <header className="bg-blue-600 text-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-xl font-bold">QuizMaster</h1>
+          <h1 className="text-xl font-bold">QuizApp</h1>
           {user && (
             <div className="flex items-center space-x-4">
               <span>Halo, {user.username}</span>
@@ -216,7 +216,7 @@ export default function QuizApp() {
         {screen === "home" && (
           <div className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-6 text-center">
-              Selamat Datang di QuizMaster
+              Selamat Datang di QuizApp
             </h2>
             <p className="mb-6 text-center">
               Uji pengetahuan Anda dengan kuis interaktif dari berbagai
@@ -323,7 +323,7 @@ export default function QuizApp() {
       </main>
 
       <footer className="bg-gray-800 text-white p-4 text-center">
-        <p className="text-sm">© 2025 QuizMaster - Aplikasi Kuis Interaktif</p>
+        <p className="text-sm">© 2025 QuizApp - Aplikasi Kuis Interaktif</p>
       </footer>
     </div>
   );
@@ -340,7 +340,7 @@ function LoginScreen({ onLogin, errorMessage }) {
 
   return (
     <div className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-6 text-center">Login QuizMaster</h2>
+      <h2 className="text-2xl font-bold mb-6 text-center">Login QuizApp</h2>
 
       {errorMessage && (
         <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">

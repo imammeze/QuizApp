@@ -1,6 +1,6 @@
-# QuizMaster - Aplikasi Kuis Interaktif
+# QuizApp - Aplikasi Kuis Interaktif
 
-QuizMaster adalah aplikasi kuis interaktif yang dibangun menggunakan React. Aplikasi ini memungkinkan pengguna untuk mengikuti kuis dengan soal-soal dari berbagai kategori yang diambil dari API eksternal.
+QuizApp adalah aplikasi kuis interaktif yang dibangun menggunakan React. Aplikasi ini memungkinkan pengguna untuk mengikuti kuis dengan soal-soal dari berbagai kategori yang diambil dari API eksternal.
 
 ## 🚀 Fitur Utama
 
@@ -239,4 +239,4 @@ Jika ada pertanyaan atau saran, silakan hubungi developer melalui:
 
 ---
 
-**QuizMaster** - Belajar sambil bermain! 🎓✨
+**QuizApp** - Belajar sambil bermain! 🎓✨
